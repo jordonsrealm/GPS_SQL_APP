@@ -5,7 +5,7 @@ $input_LONG = $_POST["longitude"];
 $date = time();
 $date_value = date("Y-m-d H:m:s",$date);
 
-$sql_query = "insert into Location values('$input_LAT','$input_LONG','$date_value');";
+$sql_query = "INSERT INTO Location VALUES('$input_LAT','$input_LONG','$date_value');";
 
 if(mysqli_query($conn,$sql_query)){
 echo "<h3>Data Insertion Success...</h3>";

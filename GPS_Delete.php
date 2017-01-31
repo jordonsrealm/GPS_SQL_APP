@@ -1,7 +1,8 @@
 <?php
+
 	require "conn_noACK.php";
 	
-	$sql_query = "SELECT * FROM Location";
+	$sql_query = "DELETE FROM Location WHERE 1";
 	
 	$result=mysqli_query($conn,$sql_query);
 	
@@ -20,5 +21,5 @@
 	}
 	
 	mysqli_close($con);
-	
+
 ?>
