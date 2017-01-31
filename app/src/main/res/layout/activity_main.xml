@@ -27,6 +27,15 @@
         android:onClick="getDBTable"
         android:layout_below="@+id/gps_button"
         android:layout_centerHorizontal="true" />
+		
+		<Button
+        android:text="Delete Database Table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dl_db_table"
+        android:onClick="deleteDBTable"
+        android:layout_below="@+id/db_table"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
